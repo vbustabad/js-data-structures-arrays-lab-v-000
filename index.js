@@ -14,6 +14,6 @@ function destructivelyRemoveLastDriver(name) {
   drivers.pop(name);
 }
 
-function destructivelyRemoveFirstDriver(name) {
-  drivers.shift(name);
+function appendDriver(name) {
+  const new_drivers_array = [...drivers, "Broom"];
 }
