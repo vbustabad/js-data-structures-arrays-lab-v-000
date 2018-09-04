@@ -34,6 +34,6 @@ function removeLastDriver(name) {
 }
 
 function removeFirstDriver(name) {
-  const new_drivers_array = drivers.slice(1, length);
+  const new_drivers_array = drivers.slice(1);
   return new_drivers_array;
 }
